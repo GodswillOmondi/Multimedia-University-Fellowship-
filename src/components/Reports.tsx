@@ -93,7 +93,7 @@ const Reports: React.FC = () => {
       printWindow.document.write('<span class="header"><img src="/src/assets/rhsflogo-removebg-preview.png" class="icon"/></span>');
       printWindow.document.write('<h2>MULTIMEDIA UNIVERSITY REPENTANCE AND HOLINESS STUDENTS FELLOWSHIP REPORT</h2>');
       printWindow.document.write('<h2>Monthly Fellowship Activities</h2>');
-      printWindow.document.write('<table><tr><th>DATE</th><th>EVENT NAME</th><th>NO. OF ATTENDEES</th><th>NO. OF VISITORS</th><th>DESCRIPTION</th></tr>');
+      printWindow.document.write('<table><tr><th>DATE</th><th>EVENT NAME</th><th>NO. OF ATTENDEES</th><th>NO. OF VISITORS</th><th>THEME VERSE</th></tr>');
       eventsList.forEach((event: any) => {
         // Combine description and speakers information
         const descriptionWithSpeakers = event.speakers 
